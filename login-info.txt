@@ -1,0 +1,8 @@
+User: user@mail.com
+Pass: user123
+
+Admin: admin@mail.com
+Pass: admin123
+
+Restaurant Admin: hanpork@mail.com
+Pass: radmin123
