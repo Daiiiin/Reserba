@@ -1,0 +1,109 @@
+main {
+  background-color: #D7F4F5;
+  /* padding-bottom: 16em; */
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #D7F4F5 !important;
+}
+.header {
+  background-color: #0D6EFD;
+  padding: 1em;
+  font-size: 1.5em;
+}
+.checked {
+  color: orange;
+}
+.card.ndx{
+  border-radius: 4px;
+  transition: .5s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.card.ndx:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.table {
+  font-size: 1.5em;
+}
+.table-header {
+  background-color: #2d6ac5;
+  color: white;
+  padding: 1em;
+  font-size: 2em;
+}
+/* LOGIN PAGE */
+.login-form-container{
+  box-sizing: border-box;
+}
+.login-form-container a{
+  text-decoration: none;
+}
+.login-form-container a:hover{
+  text-decoration: underline;
+}
+.login-form-container .row{
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px grey;
+}
+.login-form-container .container{
+  max-width: 1000px !important;
+}
+.login-form-container .login_img{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 100% !important;
+}
+.login-form-container .btn1{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.login-form-container .btn1:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+/* REGISTER PAGE */
+.register-form-container .border-sign-up{
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  background-color: white;
+  height: auto;
+  width: 35%;
+  padding: 3%;
+  border-radius: 25px;
+  box-shadow: 12px 12px 22px grey;
+}
+/* .register-form-container .border-sign-up .form-inline .form-control{
+  display: inline !important;
+} */
+.register-form-container .border-sign-up a{
+  text-decoration: none;
+}
+.register-form-container .border-sign-up a:hover{
+  text-decoration: underline;
+}
+.register-form-container img{
+  width: 45%;
+  height: auto;
+}
+.register-form-container .error{
+  background-color: rgba(255, 155, 155, 0.466);
+  padding: 1px;
+  text-align: center;
+  height: 10%;
+  color: rgb(161, 0, 0);
+}
+.register-form-container .border-sign-up .btn-dark:hover{
+  background-color: #fff;
+  color: #000;
+}
